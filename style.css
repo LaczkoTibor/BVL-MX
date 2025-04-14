@@ -109,7 +109,7 @@ p{
 }
 
 
-button{
+.out{
     display: block;
     margin: auto;
     width: 50%;
@@ -120,7 +120,7 @@ button{
     border-radius: 25px;
     transition: .4s;
 }
-button:hover{
+.out:hover{
     color: #fff;
     background-color: #000;
 }
