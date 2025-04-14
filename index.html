@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BVL-MX</title>
+    <link rel="icon" type="image/x-icon" href="./img/Logo.png">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+        <div class="container-fluid">
+          <a class="navbar-brand logo" href="#">BVL-MX</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="fa-solid fa-bars"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" href="#Rolunk">Rólunk</a>
+              </li>
+              <!--
+              <li class="nav-item">
+                <a class="nav-link" href="#Galeria">Galéria</a>
+              </li>
+              -->
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Kategóriák
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#enduro">Enduro</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#cross">Cross</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#Hely">Helyszín</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+      <header>
+        <h1 class="text-center">BVL-MX</h1>
+      </header>
+
+      <div id="Rolunk" class="container-fluid">
+        <h2 class="text-center">rólunk</h2>
+        <p>Az M0 mellett, Nagytarcsán található enduro és cross pályánk tökéletes választás minden off-road motorozás szerelmese számára! Szenvedéllyel terveztük meg pályáinkat, hogy izgalmas kihívásokat kínáljanak, miközben biztonságos és élvezetes élményt nyújtanak. A kezdők és a profi motorosok egyaránt megtalálják nálunk számításaikat.</p>
+        <p>Modern létesítményeink mellett barátságos közösségünk garantálja, hogy minden vendég otthon érezze magát. Legyen szó edzésről, versenyekről vagy hétvégi kikapcsolódásról, nálunk mindezt megtalálod! Csatlakozz hozzánk, és éld át az igazi off-road motorozás örömét!</p>
+        <p>A motorozás után remek lehetőség kínálkozik felfrissülni és energiát gyűjteni választékos büfénkben, ahol mindenki megtalálja kedvenc ízeit. Könnyed snackek, frissítő italok, valamint gazdag, meleg ételek, hogy igazán feltöltődhess. Külön figyelmet fordítunk arra, hogy a különböző étrendi igényekkel rendelkezők számára is megfelelő választékot biztosítsunk. Kóstolj bele ínycsiklandozó fogásainkba, és élvezd a kellemes kikapcsolódás pillanatait a büfé hangulatos környezetében!</p>
+      </div>
+      <!--
+      <div id="Galeria" class="container">
+        <h2 class="text-center">Galéria</h2>
+      </div>
+      -->
+      <div class="container-fluid">
+        <h1 class="text-center p-4">Árak</h1>
+        <div class="row" id="enduro">
+            <h2 class="text-center">enduro</h2>
+            <div class="col-sm-12 col-md-4 col-xl-3 card" onclick="open_out()">
+                <img src="./img/own_motor.png" alt="" class=" rounded">
+                <h3 class="text-center">Oktatás (Bérlés nélkül)</h3>
+                <p class="text-center">Hozd saját motorodat és tanuld meg vezetni, hogy igazán magadénak érezd a motorod.</p>
+                <h3 class="text-center" >10.000Ft/Óra</h3>
+            </div>
+            <div class="col-sm-12 col-md-4 col-xl-3 card" onclick="open_out()">
+              <img src="./img/150_EXC_2025.jpg" alt="" class=" rounded">
+              <h3 class="text-center">Oktatás (Bérléssel)</h3>
+              <p class="text-center">Nincs saját motorod, de érdekel az Enduro? Bérelj motort és érezd at az igazi sebességet.</p>
+              <h3 class="text-center" >15.000Ft/Óra</h3>
+            </div>
+            <div class="col-sm-12 col-md-4 col-xl-3 card" onclick="open_out()">
+                <img src="./img/enduro.jpg" alt="" class=" rounded">
+                <h3 class="text-center">Pályabérlés</h3>
+                <p class="text-center">Egy kikapcsolódás a hétvégére, szülinap vagy egy party. Béreld ki pályánkat a teljes szabadságért.</p>
+                <h3 class="text-center" >20.000Ft/Óra</h3>
+            </div>
+            <div class="col-sm-12 col-md-4 col-xl-3 card" onclick="open_out()">
+              <img src="./img/300_EXC_HARDENDURO_2025.jpg" alt="" class=" rounded">
+              <h3 class="text-center">Motor bérlés</h3>
+              <p class="text-center">Válogass a nagyszerü motor kínálatunkból tudásodnak és ígényeidnek megfelelően.</p>
+              <h3 class="text-center" >8.000Ft/DB</h3>
+          </div>
+        </div>
+        <div class="row" id="cross">
+            <h2 class="text-center">cross</h2>
+            <div class="col-sm-12 col-md-4 col-xl-3 card" onclick="open_out()">
+                <img src="./img/cross_okt.jpg" alt="" class=" rounded">
+                <h3 class="text-center">Oktatás (Bérlés nélkül)</h3>
+                <p class="text-center">Hozd saját motorod és tanuld meg hogyan eshet le az álla a barátaidnak és, hogy anyukád büszke legyen rád ;) </p>
+                <h3 class="text-center" >10.000Ft/Óra</h3>
+            </div>
+            <div class="col-sm-12 col-md-4 col-xl-3 card" onclick="open_out()">
+                <img src="./img/yz125.jpg" alt="" class=" rounded">
+                <h3 class="text-center">Oktatás (Bérléssel)</h3>
+                <p class="text-center">Nagyszerű cross motorjaink mindig készenálnak, hogy a jövő versenyzőit felkészítse.</p>
+                <h3 class="text-center" >17.000Ft/Óra</h3>
+            </div>
+            <div class="col-sm-12 col-md-4 col-xl-3 card" onclick="open_out()">
+              <img src="./img/cross_paly.jpg" alt="" class=" rounded">
+              <h3 class="text-center">Pályabérlés</h3>
+              <p class="text-center">Egy kikapcsolódás a hétvégére, szülinap vagy egy party. Béreld ki pályánkat, hogy versenyezhess barátaiddal.</p>
+              <h3 class="text-center" >25.000Ft/Óra</h3>
+          </div>
+          <div class="col-sm-12 col-md-4 col-xl-3 card" onclick="open_out()">
+            <img src="./img/yz125.jpg" alt="" class=" rounded">
+            <h3 class="text-center">Motor bérlés</h3>
+            <p class="text-center">A piac egyik ha nem a legjobb motorjaival várjuk az érdeklödő versenyzőket.</p>
+            <h3 class="text-center" >8.000Ft/DB</h3>
+        </div>
+        </div>
+      </div>
+      <div id="Hely" class="container-fluid">
+        <h2 class="text-center">helyszín</h2>
+        <div class="col-sm-12 col-md-8 mx-auto">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d4487.789627018039!2d19.266895077430156!3d47.513693594387014!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zNDfCsDMwJzQ5LjMiTiAxOcKwMTYnMTAuMSJF!5e1!3m2!1shu!2shu!4v1744439081392!5m2!1shu!2shu" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+      </div>
+
+
+      <footer>
+        <h3 class="text-center">Készítette: Laczkó Tibor</h3>
+      </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.min.js" integrity="sha384-VQqxDN0EQCkWoxt/0vsQvZswzTHUVOImccYmSyhJTp7kGtPed0Qcx8rK9h9YEgx+" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/0ef990fa62.js" crossorigin="anonymous"></script>
+    <script>
+      function open_out(){
+        window.open("./outof.html","_self")
+      }
+    </script>
+  </body>
+</html>
