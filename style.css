@@ -132,6 +132,7 @@ p{
     }
     .card{
         height: 90vh;
+        width: 100%;
     }
     .img{
         height: fit-content;
