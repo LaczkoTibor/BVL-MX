@@ -132,7 +132,7 @@ p{
     }
     .card{
         height: 90vh;
-        width: 100%;
+        width: 95%;
     }
     .img{
         height: fit-content;
@@ -151,7 +151,7 @@ p{
     }
     p{
         font-size: 1em;
-        width: 100%;
+        width: 80%;
     }
 
 }
